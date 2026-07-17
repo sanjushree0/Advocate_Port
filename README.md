@@ -1,16 +1,129 @@
-# React + Vite
+# Advocate Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website for a legal professional, built with React and Vite. The project focuses on clean design, smooth user experience, and fast performance while showcasing legal services, practice areas, professional experience, and contact information.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://advocate-port.vercel.app?_vercel_share=5PbpEsp74ounbFQc71U7OxBcFnxf7HON
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern and professional interface
+- Fully responsive design
+- Smooth scrolling and animations
+- Practice Areas section
+- About section
+- Attorney profile
+- Contact section
+- Optimized performance with Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend Framework |
+| Vite | Build Tool |
+| JavaScript | Application Logic |
+| CSS3 | Styling |
+| HTML5 | Structure |
+
+---
+
+## Project Structure
+
+```
+Advocate_Port/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/sanjushree0/Advocate_Port.git
+```
+
+Navigate to the project
+
+```bash
+cd Advocate_Port
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Create a production build
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Design Goals
+
+The objective of this project is to provide a professional online presence for a legal practitioner through:
+
+- Minimal and elegant visual design
+- Responsive layouts across devices
+- Clear navigation
+- Fast loading performance
+- Modern frontend development practices
+
+---
+
+## Deployment
+
+The application is deployed on Vercel.
+
+Live URL:
+
+https://advocate-port.vercel.app?_vercel_share=5PbpEsp74ounbFQc71U7OxBcFnxf7HON
+
+---
+
+## Future Improvements
+
+- Appointment booking system
+- Blog section
+- Multi-language support
+- Dark and light themes
+- Backend integration for contact forms
+- CMS integration for content management
+
+---
+
+## License
+
+This project is intended for educational and portfolio purposes only.
